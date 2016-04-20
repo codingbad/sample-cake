@@ -1,0 +1,29 @@
+{
+  "name": "sample-cake",
+  "version": "0.0.1",
+  "description": "AI assistant for desktop.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "keywords": [
+    "sample-cake",
+    "smart",
+    "assistant",
+    "ai"
+  ],
+  "author": "Damir Mustafin",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenchbread/sample-cake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frenchbread/sample-cake/issues"
+  },
+  "homepage": "https://github.com/frenchbread/sample-cake#readme"
+}
