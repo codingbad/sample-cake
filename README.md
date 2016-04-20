@@ -1,3 +1,3 @@
-# Mike
+# sample-cake
 
-> Hi there!
+> AI assistant for desktop.
