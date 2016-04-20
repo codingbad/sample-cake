@@ -17,7 +17,9 @@
   "devDependencies": {
     "electron-prebuilt": "^0.37.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frenchbread/sample-cake.git"
