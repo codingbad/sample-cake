@@ -26,7 +26,7 @@ if ('webkitSpeechRecognition' in window) {
 
   canListen = true;
 
-  recognition.continuous = false;
+  recognition.continuous = true;
   recognition.interimResults = true;
   recognition.lang = 'en-US';
 
@@ -94,4 +94,9 @@ function doSpeak (text) {
 		var phrase = new SpeechSynthesisUtterance(text);
 		synthesis.speak(phrase);
 	}
+}
+
+function stopListening () {
+  $('#status-text').text('Stopped.');
+  recognition.stop();
 }
